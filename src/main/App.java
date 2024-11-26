@@ -1,11 +1,12 @@
-package src.main;
+package main;
 
-import src.controller.FuncionarioController;
+import controller.FuncionarioController;
 
 public class App {
+
     public static void main(String[] args) {
         FuncionarioController controller = new FuncionarioController();
-
-        controller.iniciarSistema();
+        
+        controller.iniciarSistema(); 
     }
 }

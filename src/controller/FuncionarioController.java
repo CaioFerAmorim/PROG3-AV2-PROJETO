@@ -1,8 +1,7 @@
 package controller;
 
-import model.*;
 import data.FuncionarioData;
-
+import model.Funcionario;
 import java.util.List;
 
 public class FuncionarioController {
@@ -11,6 +10,13 @@ public class FuncionarioController {
 
     public FuncionarioController() {
         this.funcionarioData = new FuncionarioData();
+    }
+
+    public void iniciarSistema() {
+        // Exemplo de lógica para inicializar o sistema
+        // Carregar dados, preparar ambiente, etc.
+        System.out.println("Sistema iniciado.");
+        carregarFuncionarios();  // Exemplo de carregar os funcionários
     }
 
     public void adicionarFuncionario(Funcionario funcionario) {
